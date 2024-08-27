@@ -1,0 +1,58 @@
+@use "vars";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: vars.$ff-main;
+    background: vars.$clr-main;
+    color: vars.$clr-white;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-list-link{
+    color: vars.$clr-white;
+    text-decoration: none;
+    font-size: vars.$fs-md;
+
+}
+
+.main-title{
+    font-family: vars.$ff-secondary;
+    font-size: vars.$fs-gt;
+}
+
+.description{
+    font-size: vars.$fs-xmd;
+}
+
+.btn{
+    background: vars.$clr-white;
+    color: vars.$clr-secondary;
+    text-decoration: none;
+    border-radius: 2.5rem;
+    padding: 1.5rem 3rem;
+    font-weight: vars.$fw-bold;
+    font-size: vars.$fs-md;
+}
+
+.columns-container{
+    display: grid;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}

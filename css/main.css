@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: hsl(309, 62%, 28%);
+  color: hsl(0, 0%, 100%);
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-list-link {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-size: 1.563rem;
+}
+
+.main-title {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 8.563rem;
+}
+
+.description {
+  font-size: 1.875rem;
+}
+
+.btn {
+  background: hsl(0, 0%, 100%);
+  color: hsl(334, 87%, 38%);
+  text-decoration: none;
+  border-radius: 2.5rem;
+  padding: 1.5rem 3rem;
+  font-weight: 700;
+  font-size: 1.563rem;
+}
+
+.columns-container {
+  display: grid;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
